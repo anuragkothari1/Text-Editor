@@ -35,7 +35,7 @@ document.body.style.backgroundColor="grey"
     
     
     <BrowserRouter>
-    <Navbar title ="Anurag TextUtils" theme={theme} switchbtnclicked={switchbtnclicked} mystyle={mystyle} modebtntext={modebtntext}/>
+    <Navbar title ="Anurag's TextUtils" theme={theme} switchbtnclicked={switchbtnclicked} mystyle={mystyle} modebtntext={modebtntext}/>
     
     <div className="container my-3">
       <Routes>
