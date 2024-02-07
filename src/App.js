@@ -37,11 +37,13 @@ document.body.style.backgroundColor="grey"
     <BrowserRouter>
     <Navbar title ="Anurag's TextUtils" theme={theme} switchbtnclicked={switchbtnclicked} mystyle={mystyle} modebtntext={modebtntext}/>
     
+    
     <div className="container my-3">
       <Routes>
-        <Route path="/" element={ <Textform theme={theme}/> }/>
+        
+        <Route exact path="/" element={ <Textform theme={theme}/> }/>
           
-          <Route exact path="/about" element={<About />}/>
+        <Route exact path="/about" element={<About />}/>
       </Routes>
       </div>
     </BrowserRouter>
